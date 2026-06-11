@@ -11,4 +11,4 @@ while True:
     
     response = model.generate_content(user_input)
     print("Bot:", response.text)
-    print()
+    print()  
