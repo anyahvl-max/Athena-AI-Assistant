@@ -3,13 +3,14 @@ import google.generativeai as genai
 genai.configure(api_key="AQ.Ab8RN6L7Ai7Wn0RcWDAxkzT3nStIWrXA_S4hAMZQtBD6vZoMOQ")
 model = genai.GenerativeModel("gemini-2.5-flash")
 st.set_page_config(
-    page_title="Ananya AI Assistant",
+    page_title="Athena AI Assistant",
     page_icon="🤖",
     layout="centered"
 )
-st.title("🤖 Ananya AI Assistant")
+st.title("🤖 Athena AI Assistant")
+st.caption("Developed by Ananya Laiju | Powered by Google Gemini AI")
 #New Upgrade 2: Custom Welcome Message
-st.markdown("### 👋 Welcome to Ananya AI Assistant")
+st.markdown("### 👋 Welcome to Athena AI Assistant")
 st.write("---")
 # NEW UPGRADE 1: clear chat Button in sidebar
 with st.sidebar:
