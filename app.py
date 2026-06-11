@@ -1,6 +1,6 @@
 import streamlit as st
 import google.generativeai as genai
-genai.configure(api_key="AQ.Ab8RN6L7Ai7Wn0RcWDAxkzT3nStIWrXA_S4hAMZQtBD6vZoMOQ")
+genai.configure(api_key="YOUR_API_KEY_HERE")
 model = genai.GenerativeModel("gemini-2.5-flash")
 st.set_page_config(
     page_title="Athena AI Assistant",
